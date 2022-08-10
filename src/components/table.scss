@@ -22,6 +22,13 @@ table {
       left: 150px;
       background-color: white;
     }
+    &:last-child{
+      position: sticky;
+      z-index: 12;
+      right: 0;
+      background-color: white;
+      color: dodgerblue;
+    }
   }
 
   td {
@@ -42,6 +49,14 @@ table {
       left: 150px;
       background-color: white;
       text-align: center;
+    }
+    &:last-child{
+      position: sticky;
+      text-align: center;
+      z-index: 11;
+      right: 0;
+      color: dodgerblue;
+      background-color: white;
     }
   }
 }

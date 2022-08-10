@@ -8,6 +8,7 @@ class App extends Component {
     for (let i = 1; i < columnCount; i++) {
       tableHead.push(<th>Column {i}</th>);
     }
+    tableHead.push(<th>Action</th>);
     return tableHead;
   };
 
@@ -27,6 +28,7 @@ class App extends Component {
           <td>London Park no {i}</td>
           <td>London Park no {i}</td>
           <td>London Park no {i}</td>
+          <td>Action</td>
         </tr>
       );
 

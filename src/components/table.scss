@@ -1,0 +1,46 @@
+table {
+  border-spacing: 0;
+  th {
+    padding: 20px 15px;
+    min-width: 150px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+    border-bottom: 1px solid black;
+
+    &:first-child {
+      position: sticky;
+      z-index: 11;
+      left: 0;
+      background-color: white;
+    }
+
+    &:nth-child(2) {
+      position: sticky;
+      z-index: 11;
+      left: 150px;
+      background-color: white;
+    }
+  }
+
+  td {
+    padding: 20px 10px;
+    min-width: 150px;
+    border-bottom: 1px solid black;
+
+    &:first-child {
+      position: sticky;
+      text-align: center;
+      left: 0;
+      background-color: white;
+    }
+
+    &:nth-child(2) {
+      position: sticky;
+      left: 150px;
+      background-color: white;
+      text-align: center;
+    }
+  }
+}
